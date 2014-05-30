@@ -7,6 +7,6 @@ describe('Test', function() {
     done();
   });
   it('Should do the test', function(done) {
-    done();
+    done(new Error('Test Error'));
   })
 });
